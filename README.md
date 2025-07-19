@@ -1,6 +1,6 @@
 # Customer-Churn-Analytics-Prediction-Dashboard-with-Machine-Learning🚀
 
-This project aims to analyze customer data and predict churn using machine learning techniques. Based on the tutorial by Tech TFQ ([Watch here](https://youtu.be/QFDslca5AX8?feature=shared)), this project walks through data cleaning, visualization, model building, and evaluation steps using Python.
+This project aims to analyze customer data and predict churn using machine learning techniques.This project walks through data cleaning, visualization, model building, and evaluation steps using Python.
 
 ---
 
