@@ -1,60 +1,50 @@
-# Customer-Churn-Analytics-Prediction-Dashboard-with-Machine-Learning🚀
+# Customer Churn Prediction Dashboard
 
-This project aims to analyze customer data and predict churn using machine learning techniques.This project walks through data cleaning, visualization, model building, and evaluation steps using Python.
-
----
-
-## 🧾 Objective
-
-To predict whether a customer will churn (leave the service) using demographic, service usage, and billing data. This helps businesses retain valuable customers and reduce churn.
+This project provides a comprehensive **Churn Analysis & Prediction** system using **Machine Learning** and **Power BI**. It allows business analysts to identify churn patterns, predict customer churn with high accuracy, and derive actionable insights to reduce attrition.
 
 ---
 
-## 📁 Dataset
+## 📊 Overview
 
-- **Source**: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-- **Columns** include:
-  - `gender`, `SeniorCitizen`, `Partner`, `tenure`, `MonthlyCharges`, etc.
-  - `Churn` (target variable)
-
----
-
-## ⚙️ Tools & Technologies
-
-- **Language**: Python
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
-- **Models Used**: Logistic Regression, Random Forest, Decision Tree
-- **Dashboard Options** (extendable):
-  - Jupyter Notebook (visualizations)
-  - Streamlit (optional for UI)
+- **Data Source**: Telco customer dataset
+- **Tool Used**: Power BI, Python (sklearn, pandas, matplotlib), Excel
+- **ML Model**: Random Forest Classifier (Accuracy: ~84%)
+- **Key Output**: Predicted churn status added to raw customer data, visualized in a Power BI dashboard
 
 ---
 
-## 📊 Project Workflow
+## 🔍 Features
 
-1. **Load Dataset**
-2. **Data Cleaning**
-   - Handle missing values
-   - Convert categorical variables using LabelEncoder / OneHotEncoder
-3. **Exploratory Data Analysis (EDA)**
-   - Churn distribution
-   - Correlation matrix
-   - Boxplots & countplots
-4. **Feature Engineering**
-5. **Model Training**
-   - Logistic Regression
-   - Decision Tree
-   - Random Forest
-6. **Model Evaluation**
-   - Accuracy, Precision, Recall
-   - Confusion Matrix
-   - ROC-AUC Score
+- Dynamic churn filtering by gender, age, service usage, etc.
+- Predictive model integration with customer-level churn likelihood
+- Easy-to-read visuals: pie charts, KPI cards, slicers, and trend lines
+- Exportable predicted results with customer ID
 
 ---
 
-## 📌 Results
+## 🧠 Machine Learning Approach
 
-- Achieved ~80% accuracy using Random Forest
-- Identified key features influencing churn: `tenure`, `MonthlyCharges`, `Contract`
+- Preprocessed and encoded categorical data
+- Trained a Random Forest model using scikit-learn
+- Applied the model to new joiner data to predict churn
+- Integrated predictions into Power BI
 
 ---
+
+## 📁 File Structure
+
+```bash
+.
+├── Prediction_Data.xlsx            # Excel input data
+├── churn_prediction.py            # Model training and prediction script
+├── Predictions.csv                # Output with predicted churn status
+├── dashboard.pbix                 # Power BI dashboard file
+└── README.md                      # This file
+
+![Dashboard Screenshot](churnop1.jpg)
+
+
+
+
+
+
