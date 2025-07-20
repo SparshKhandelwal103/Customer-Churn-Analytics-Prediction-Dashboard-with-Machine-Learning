@@ -30,6 +30,10 @@ This project provides a comprehensive **Churn Analysis & Prediction** system usi
 - Integrated predictions into Power BI
 
 ---
+![Dashboard Screenshot](https://github.com/SparshKhandelwal103/Customer-Churn-Analytics-Prediction-Dashboard-with-Machine-Learning/blob/main/churnop1.jpg)
+![Dashboard Screenshot2](https://github.com/SparshKhandelwal103/Customer-Churn-Analytics-Prediction-Dashboard-with-Machine-Learning/blob/main/churnop2.jpg)
+![Dashboard Screenshot3](https://github.com/SparshKhandelwal103/Customer-Churn-Analytics-Prediction-Dashboard-with-Machine-Learning/blob/main/churnop3.jpg)
+
 
 ## 📁 File Structure
 
@@ -40,8 +44,6 @@ This project provides a comprehensive **Churn Analysis & Prediction** system usi
 ├── Predictions.csv                # Output with predicted churn status
 ├── dashboard.pbix                 # Power BI dashboard file
 └── README.md                      # This file
-
-![Dashboard Screenshot](churnop1.jpg)
 
 
 
